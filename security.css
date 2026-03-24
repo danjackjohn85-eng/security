@@ -8,34 +8,34 @@ body {
     background-color: rgb(241, 239, 239);
     color: #000;
 }
-
+ /* header */
 header {
     padding: 15px 30px;
 }
 
 nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: right;
     flex-wrap: wrap;
 }
 
 nav ul {
-    padding-left: 900px;
     list-style: none;
     display: flex;
     gap: 20px;
 }
-
 nav ul li a {
     color: rgb(88, 87, 87);
     text-decoration: none;
     font-weight: 500;
 }
-
+.head{
+    justify-content: space-between;
+}
 nav ul li a:hover {
     text-decoration: underline;
 }
-
+/* head */
 .pro {
     padding: 90px 50px;
     display: flex;
@@ -63,7 +63,7 @@ nav ul li a:hover {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
-
+ /* Quality */
 .cards {
     display: flex;
     justify-content: center;
@@ -89,7 +89,7 @@ nav ul li a:hover {
     transform: scale(1.1);
     border-radius: 10px;
 }
-
+/* About us */
 .demo1 {
     margin: 70px 40px;
     display: flex;
@@ -181,7 +181,7 @@ nav ul li a:hover {
 .gre p {
     color: #7a7a7a;
 }
-
+/* The best service */
 .phe {
     background: rgb(228, 223, 223);
     padding: 60px 50px;
@@ -224,7 +224,7 @@ nav ul li a:hover {
     border: white solid 5px;
 
 }
-
+/* Monitor */
 .femu {
     display: flex;
     background: rgb(194, 194, 206);
@@ -275,7 +275,7 @@ nav ul li a:hover {
 .opt {
     text-align: center;
 }
-
+/* Our Working Process */
 .ces {
     text-align: center;
 }
@@ -336,7 +336,12 @@ nav ul li a:hover {
     gap: 300px;
     padding: 50px 1px;
 }
-
+.ari h1{
+    color: #0f2a3d;
+}
+.ari p{
+    color: #7a7a7a;
+}
 .cus {
     height: 390px;
     width: 700px;
@@ -385,4 +390,35 @@ nav ul li a:hover {
 }
 .pum p{
     padding: 1px 20px;
+}
+/* solution */
+.solut{
+    background: #999;
+    color: white;
+}
+.solu{
+    text-align: center;
+    padding: 100px;
+}
+.solu p{
+    padding: 20px;
+}
+.low{
+    display: flex;
+    justify-content: center;
+
+}
+.low i{
+    font-size: 40px;
+    padding: 1px 20px;
+}
+/* Article */
+.art{
+    text-align: center;
+}
+.art h1{
+    color: #0f2a3d;
+}
+.art p{
+    color: #7a7a7a;
 }

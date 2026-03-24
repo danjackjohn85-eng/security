@@ -1,0 +1,388 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(241, 239, 239);
+    color: #000;
+}
+
+header {
+    padding: 15px 30px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+nav ul {
+    padding-left: 900px;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: rgb(88, 87, 87);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.pro {
+    padding: 90px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec {
+    color: rgb(88, 87, 87);
+}
+
+.tec {
+    color: #0f2a3d;
+}
+
+.photo {
+    border-radius: 140px;
+    border: 10px solid white;
+}
+
+.cloud {
+    color: rgb(88, 87, 87);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: -50px;
+}
+
+.card {
+    text-align: center;
+    background: rgb(105, 104, 104);
+    padding: 40px;
+    width: 380px;
+    color: white;
+    border-radius: 5px;
+}
+
+.card i {
+    font-size: 30px;
+}
+
+.card:hover {
+    background: rgb(55, 55, 97);
+    transform: scale(1.1);
+    border-radius: 10px;
+}
+
+.demo1 {
+    margin: 70px 40px;
+    display: flex;
+
+}
+
+.demo2:hover {
+    background: rgb(105, 104, 104);
+    transform: scale(1.1);
+    border-radius: 17px;
+}
+
+.demo2 {
+    padding: 60px 30px;
+    width: 800px;
+    background: gray;
+    color: white;
+    border-radius: 5px;
+    height: 505px;
+}
+
+.but {
+    padding: 10px 25px;
+    border-radius: 5px;
+    color: white;
+    background: rgb(55, 55, 97);
+}
+
+.demo3 {
+    border-radius: 5px;
+    height: 250px;
+    margin-right: -80px;
+
+}
+
+.demo4 {
+    border-right: 7px solid rgb(201, 190, 190);
+    border-radius: 10px;
+    padding: 30px;
+    background: whitesmoke;
+    height: 505PX;
+}
+
+.demo4 h3 {
+    color: #2b2b2b;
+}
+
+.demo4:hover {
+    transform: scale(1.1);
+}
+
+.inc {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    max-width: 400px;
+}
+
+.inc i {
+    width: 90px;
+    height: 35px;
+    background: #0f2a3d;
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border-radius: 8px;
+    font-size: 23px;
+    padding: 4px;
+}
+
+.inc h3 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 600;
+    color: #2b2b2b;
+}
+
+.inc p {
+    margin: 6px;
+    font-size: 14px;
+    color: #7a7a7a;
+}
+
+.gre {
+    margin: 100px 40px;
+}
+
+.gre p {
+    color: #7a7a7a;
+}
+
+.phe {
+    background: rgb(228, 223, 223);
+    padding: 60px 50px;
+}
+
+.non {
+    display: flex;
+    gap: 300px;
+}
+
+.the {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    margin: 20px;
+}
+
+.phy p {
+    color: #7a7a7a;
+}
+
+.phy h1 {
+    color: #0f2a3d;
+}
+
+.demo6 p {
+    padding: 40px 30px;
+}
+
+.demo6 {
+    padding: 70px 0px;
+    text-align: center;
+    width: 310px;
+}
+
+.demo6:hover {
+    background: rgb(105, 104, 104);
+    color: white;
+    border-radius: 160px;
+    border: white solid 5px;
+
+}
+
+.femu {
+    display: flex;
+    background: rgb(194, 194, 206);
+    padding: 20px;
+}
+
+.femu h1 {
+    color: white;
+}
+
+.femu p {
+    color: white;
+    margin: 30px 1px;
+}
+
+.femu1 {
+    width: 300px;
+    margin: 10px 1px;
+    padding: 10px;
+    padding-bottom: 90px;
+}
+
+.femu2 {
+    padding: 50px;
+}
+
+.email {
+    width: 300px;
+    padding: 10px;
+    border-radius: 5px;
+    border: white 2px;
+    margin: 10px 1px;
+
+}
+
+.select {
+    padding: 10px;
+    padding-right: 136px;
+    border-radius: 5px;
+    border: white 2px;
+    margin: 10px 1px;
+}
+
+.inno {
+    margin: 60px 200px;
+}
+
+.opt {
+    text-align: center;
+}
+
+.ces {
+    text-align: center;
+}
+
+.ces h1 {
+    color: #0f2a3d;
+}
+
+.ces p {
+    color: #7a7a7a;
+}
+
+.est {
+    padding: 60px;
+}
+
+.dis {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.go {
+    margin: 50px;
+    padding: 20px;
+    background: #ffffff;
+    width: 300px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgb(0, 0, 0, 0.1);
+    transition: 0.3s;
+    text-align: center;
+}
+
+.go i {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto 10px;
+    background: #e0e6ed;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.arrow {
+    margin-top: 150px;
+    font-size: 30px;
+    color: #999;
+}
+
+/* secures better than us */
+.cols{
+    background: rgb(236, 232, 232);
+}
+.ari {
+    display: flex;
+    gap: 300px;
+    padding: 50px 1px;
+}
+
+.cus {
+    height: 390px;
+    width: 700px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.col {
+    margin: 50px;
+}
+
+.col p {
+    margin: 30px 1px;
+}
+
+.rev {
+    display: flex;
+}
+
+.pan {
+    padding: 80px;
+    background: #0f2a3d;
+    color: white;
+    height: 390px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.pan i {
+    color: yellow;
+}
+
+.pon {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.pom {
+    display: flex;
+}
+
+.pum {
+    display: flex;
+}
+.pum p{
+    padding: 1px 20px;
+}

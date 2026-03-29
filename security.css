@@ -8,6 +8,13 @@ body {
     background-color: rgb(241, 239, 239);
     color: #000;
 }
+/* Buttons */
+.but {
+    padding: 10px 25px;
+    border-radius: 5px;
+    color: white;
+    background: rgb(55, 55, 97);
+}
  /* header */
 header {
     padding: 15px 30px;
@@ -110,14 +117,6 @@ nav ul li a:hover {
     border-radius: 5px;
     height: 505px;
 }
-
-.but {
-    padding: 10px 25px;
-    border-radius: 5px;
-    color: white;
-    background: rgb(55, 55, 97);
-}
-
 .demo3 {
     border-radius: 5px;
     height: 250px;
@@ -413,6 +412,9 @@ nav ul li a:hover {
     padding: 1px 20px;
 }
 /* Article */
+.kan{
+    padding: 60px;
+}
 .art{
     text-align: center;
 }
@@ -421,4 +423,96 @@ nav ul li a:hover {
 }
 .art p{
     color: #7a7a7a;
+    margin: 10px;
+}
+.apex{
+    display: flex;
+    gap: 5px;
+}
+.stms{
+    display: flex;
+    justify-content: center;
+}
+.bug{
+    width: 400px;
+    height: 500px;
+    border-radius: 5px;
+    margin: 10px 1px;
+}
+.lam{
+    width: 350px;
+}
+.lam h2{
+    color: #0f2a3d;
+    margin: 6px 0px;
+}
+.lam p{
+    color: #7a7a7a;
+    margin: 6px 0px;
+}
+.stm{
+    margin: 15px;
+}
+/* News */
+.news{
+    display: flex;
+    gap: 50px;
+    padding: 50px;
+    background: rgb(93, 93, 134);
+    color: white;
+}
+.nes h1{
+     margin: 30px 0px;
+}
+.nes p{
+    width: 650px;
+}
+.inp{
+    padding-right: 200px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-top: 70px;
+    border: solid white 2px;
+    border-radius: 9px;
+    color: white;
+}
+.buts{
+    padding: 10px 25px;
+    border-radius: 5px;
+    color: white;
+    background: rgb(56, 56, 88);
+    margin-top: 70px;
+}
+/* footer */
+footer{
+    padding: 20px  50px;
+    color: white;
+    background: rgb(105, 105, 139);
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0px;
+}
+#ffot{
+    width: 600px;
+}
+#ffot i{
+    background: #0f2a3d;
+    padding: 5px;
+    gap: 1px;
+    margin: 10px 0px;
+}
+.ffot h3{
+    padding: 20px 0px;
+}
+.ffot p{
+    padding: 3px 0px;
+}
+#fit p{
+    padding: 10px 0px;
+}
+.end{
+    text-align: center;
+    padding-top: 40px;
 }

@@ -100,7 +100,7 @@ nav ul li a:hover {
 .demo1 {
     margin: 70px 40px;
     display: flex;
-
+    flex-wrap: nowrap;
 }
 
 .demo2:hover {
@@ -226,7 +226,11 @@ nav ul li a:hover {
 /* Monitor */
 .femu {
     display: flex;
-    background: rgb(194, 194, 206);
+    background: rgba(0,0,0,0.7)url(cctvbackground.jfif);
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    background-size: cover;
+    background-position: center;
     padding: 20px;
 }
 
@@ -392,7 +396,11 @@ nav ul li a:hover {
 }
 /* solution */
 .solut{
-    background: #999;
+    background: rgba(0,0,0,0.7)url(cctvbackground.jfif);
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    background-size: cover;
+    background-position: center;
     color: white;
 }
 .solu{
@@ -456,9 +464,10 @@ nav ul li a:hover {
 /* News */
 .news{
     display: flex;
-    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: space-between;
     padding: 50px;
-    background: rgb(93, 93, 134);
+    background: #999;
     color: white;
 }
 .nes h1{
@@ -487,7 +496,12 @@ nav ul li a:hover {
 footer{
     padding: 20px  50px;
     color: white;
-    background: rgb(105, 105, 139);
+    background: rgba(0,0,0,0.7)url(cctvbackground.jfif);
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    background-size: cover;
+    background-position: center;
+
 }
 .foot{
     display: flex;

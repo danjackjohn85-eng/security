@@ -74,7 +74,6 @@ nav ul li a:hover {
 .cards {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
     margin-top: -50px;
 }
 
@@ -82,7 +81,7 @@ nav ul li a:hover {
     text-align: center;
     background: rgb(105, 104, 104);
     padding: 40px;
-    width: 350px;
+    width: 370px;
     color: white;
     border-radius: 5px;
 }
